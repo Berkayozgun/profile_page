@@ -1,0 +1,76 @@
+ion-menu-button {
+  color: var(--ion-color-primary);
+}
+
+#container {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+  color: #8c8c8c;
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+ion-content {
+    background:#ffffff;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+ion-toolbar {
+    background: transparent;
+}
+.card {
+    margin:auto;
+    .header {
+        height: 50px;
+        .avatar {
+            width: 140px;
+            height: 140px;
+            position: center;
+            margin:auto;
+            img {
+                display:flex;
+                border: radius 0%;
+                position: auto;
+                background-color: #fff;
+            }
+        }
+    }
+}
+.card-body {
+    background-color: #ffffff;
+    padding: 50px;
+    height: 450px;
+    .username {
+      height:50px;
+    }
+    .university {
+        height: -100px;
+        color: #808080;	
+    }
+    .majority {
+        height: 50px;
+        color:#808080;
+    }
+    .duzenle{
+      height: 500px;
+    }
+    }
